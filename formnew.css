@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Survey form</title>
+	<style>
+		body{
+			font-family: cursive;
+			text-align: center;
+			background-color: silver;
+
+        }
+        form{
+        	background-color: pink;
+        	max-width: 500px;
+        	margin: 50px auto;
+        	padding: 30px 20px;
+        	box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+        .form-control label {
+            display: block;
+            margin-bottom: 10px;
+        }
+       
+	</style>
+</head>
+<body>
+	<form id="form">
+		<caption>Sign Up Form</caption><br>
+		<div class="form control">
+		<label for="name">Name</label><br>
+		<input type="text" id="name" placeholder="Enter Name"><br></div>
+		<label for="email">Email</label><br>
+		<input type="email" id="email" placeholder="Enter your email"><br>
+		<label for="password">Password</label><br>
+		<input type="password" id="password" placeholder="Enter password">
+		<br>
+		<label for="course">Courses</label>
+		<select>
+			<option>B.Tech</option>
+			<option>BCA</option>
+			<option>M.Tech</option>
+		</select>
+		<br>
+		<label for="Expertise">Your Level of expertise</label><br>
+		<input type="radio" id="Expertise">Novice <br>
+		<input type="radio" id=Expertise">Intermediate <br>
+		<input type="radio" id="Expertise">Advanced <br>
+		<label for="learn">What would you like to learn next?</label><br>
+		<input type="checkbox" id ="learn">Front-end projects <br>
+		<input type="checkbox" id="learn">Back-end projects
+		<br>
+	     <textarea placeholder="enter query"></textarea>
+		<br>
+		<input type="submit">
+	</form>
+
+</body>
+</html>
